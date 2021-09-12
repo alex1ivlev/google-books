@@ -1,0 +1,30 @@
+
+
+
+.logo{
+    width: 20rem;
+    padding-top: 10px;
+}
+
+.cards {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    grid-gap: 20px;
+}
+
+.card {
+    display: grid;
+    grid-template-rows: max-content 200px 1fr;
+    text-align: left;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: smaller;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    object-fit: cover;
+    width: 40%;
+    height: 40%;
+}
